@@ -1,4 +1,4 @@
-pipeline {
+agent {
   stages {
    	withCredentials([usernamePassword(credentialsId: 'USER', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
 
