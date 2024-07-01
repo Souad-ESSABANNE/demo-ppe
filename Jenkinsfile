@@ -23,6 +23,8 @@ pipeline {
     stage('Publish') {
        steps {
         script {
+        	sh '''echo "Publishing..."
+        	'''
 	          //sh '''npm publish
 	          //'''
        }
